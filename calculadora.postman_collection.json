@@ -1,0 +1,144 @@
+{
+	"info": {
+		"_postman_id": "baa29efa-b1f1-466b-9881-2c64c6823427",
+		"name": "calculadora",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "soma",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/calculadora/soma?valor1=10.5&valor2=20.5",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"calculadora",
+						"soma"
+					],
+					"query": [
+						{
+							"key": "valor1",
+							"value": "10.5"
+						},
+						{
+							"key": "valor2",
+							"value": "20.5"
+						},
+						{
+							"key": "operador",
+							"value": "+",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "multiplicação",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/calculadora/multiplicacao?valor1=10&valor2=2&operador=*",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"calculadora",
+						"multiplicacao"
+					],
+					"query": [
+						{
+							"key": "valor1",
+							"value": "10"
+						},
+						{
+							"key": "valor2",
+							"value": "2"
+						},
+						{
+							"key": "operador",
+							"value": "*"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "divisão",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/calculadora/divisao?valor1=20&valor2=2",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"calculadora",
+						"divisao"
+					],
+					"query": [
+						{
+							"key": "valor1",
+							"value": "20"
+						},
+						{
+							"key": "valor2",
+							"value": "2"
+						},
+						{
+							"key": "operador",
+							"value": "/",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "subtração",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/calculadora/subtracao?valor1=20&valor2=10",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"calculadora",
+						"subtracao"
+					],
+					"query": [
+						{
+							"key": "valor1",
+							"value": "20"
+						},
+						{
+							"key": "valor2",
+							"value": "10"
+						},
+						{
+							"key": "operador",
+							"value": "-",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

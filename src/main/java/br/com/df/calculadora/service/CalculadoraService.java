@@ -1,13 +1,15 @@
 package br.com.df.calculadora.service;
 
+import java.math.BigDecimal;
+
 public interface CalculadoraService {
 
-    String calculoSoma(double valor1, double valor2);
+    String calculoSoma(BigDecimal valor1, BigDecimal valor2);
 
-    String calculoDivisao(double valor1, double valor2);
+    String calculoDivisao(BigDecimal valor1, BigDecimal valor2);
 
-    String calculoMultiplicacao(double valor1, double valor2);
+    String calculoMultiplicacao(BigDecimal valor1, BigDecimal valor2);
 
-    String calculoSubtracao(double valor1, double valor2);
+    String calculoSubtracao(BigDecimal valor1, BigDecimal valor2);
 
 }
